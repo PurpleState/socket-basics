@@ -4,6 +4,7 @@ var now = moment();
 // console.log(now.format());
 // console.log(now.format('X'));
 // console.log(now.format('x'));
+// console.log(now.valueOf()); javascript timestamp
 
 var timestamp = 1444247486704;
 var timestampMoment = moment.utc(timestamp);
