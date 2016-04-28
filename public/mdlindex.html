@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Socket.io Basics</title>
+	<link rel="stylesheet" href="./css/material.brown-pink.min.css">
+	<script src="./js/material.min.js"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+	<div class="mdl-grid">
+		<div class="mdl-cell mdl-cell--4-col"></div>
+		<div class="mdl-cell mdl-cell--4-col">
+			<h1>Join Chat</h1>
+		</div>		
+		<div class="mdl-cell mdl-cell--4-col"></div>
+	</div>	
+
+	<form action="/chat.html">
+		<div class="mdl-grid">
+			<div class="mdl-cell mdl-cell--4-col"></div>
+			<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label mdl-cell mdl-cell--4-col">
+			    <input class="mdl-textfield__input" type="text" name="name" rows="3" id="display">
+			    <label class="mdl-textfield__label" for="display">Display Name</label>		
+			</div>
+		  	<div class="mdl-cell mdl-cell--4-col"></div>
+		</div>
+		<div class="mdl-grid">
+			<div class="mdl-cell mdl-cell--4-col"></div>
+			<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label mdl-cell mdl-cell--4-col">
+			    <input class="mdl-textfield__input" type="text" name="room" id="room">
+			    <label class="mdl-textfield__label" for="room">Room</label>
+			</div>
+			<div class="mdl-cell mdl-cell--4-col"></div>
+		</div>
+		<div class="mdl-grid">
+			<div class="mdl-cell mdl-cell--4-col"></div>
+			<div class="mdl-cell mdl-cell--4-col">
+				<input class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" type="submit" value="Join chat"/>
+			</div>		
+			<div class="mdl-cell mdl-cell--4-col"></div>
+		</div>
+	</form>
+</body>
+</html>
