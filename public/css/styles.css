@@ -5,3 +5,11 @@
 	align-items: center;
 }
 
+h1 {
+	margin: 24px 0;
+}
+
+.messages li {
+	margin: 6px 0;
+}
+
